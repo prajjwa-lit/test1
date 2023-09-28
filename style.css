@@ -1,0 +1,32 @@
+
+
+
+@import url('grid_12-825-55-15.css');
+
+body
+{
+    background-color: rgb(200, 198, 192);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+a:hover{
+    color: rgb(232, 236, 213);
+    text-decoration: solid;
+    text-decoration-color: brown;
+    text-transform: uppercase;
+  
+}
+
+.first
+{
+    background-color: rgb(135, 236, 34);
+}
+p
+{
+@font-face {
+    font-family: 'pacificoregular';
+   src: url('pacifico-regular-webfont.woff2') format('woff2'),
+           url('pacifico-regular-webfont.woff') format('woff');
+    font-weight: bold;
+  }
+}
